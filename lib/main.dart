@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/exibicao_clientes/exibicao_cliente.screen.dart';
+import 'package:myapp/gestao_pedidos/gestao_pedidos.screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const ExibicaoClienteScreen(title: 'Exibição Cliente'),
+      home: const GestaoPedidosScreen(title: 'Exibição de Pedidos'),
     );
   }
 }
